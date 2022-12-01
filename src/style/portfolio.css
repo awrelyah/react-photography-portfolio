@@ -1,0 +1,19 @@
+.categories{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.category{
+    color:grey;
+}
+
+.portfolio-nav:hover,
+.contact-nav:hover{
+    border-bottom:  1px solid white;
+}
+
+.category:hover{
+    color:black;  
+}
