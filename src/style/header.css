@@ -1,0 +1,33 @@
+.carousel-img{
+    width: 100vw;
+}
+
+
+.nav{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    color: black;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+    font-family: 'Spectral SC', sans-serif;
+    color:white;
+    font-size: 0.9rem;
+    transition: top 0.3s;
+}
+
+.suchowola-nav{
+    font-size: 1.2rem;
+}
+
+.portfolio-nav:hover,
+.contact-nav:hover{
+    border-bottom:  1px solid white;
+}
