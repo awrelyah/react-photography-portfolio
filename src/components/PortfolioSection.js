@@ -8,7 +8,7 @@ function PortfolioSection() {
         <div className="category portraits active-page">Portraits</div>
         <div className="category landscapes">Landscapes</div>
         <div className="category festivals">Festivals</div>
-        <div className="category drone">Drone photos</div>
+        <div className="category drone">Drone</div>
       </div>
 
       <div className="images">

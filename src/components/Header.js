@@ -8,12 +8,15 @@ import img7 from "../img/img7.JPG";
 import img9 from "../img/img9.JPG";
 
 function Header() {
+
   return (
     <div>
       <div className="nav">
         <div className="portfolio-nav">portfolio</div>
         <div className="suchowola-nav"> suchowola media</div>
-        <div className="contact-nav">contact</div>
+        <div className="contact-nav" >
+          contact
+        </div>
       </div>
 
       <Carousel>
