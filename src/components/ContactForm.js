@@ -9,7 +9,7 @@ function ContactForm() {
     <div className="contact">
       <div>
         For inquiries send me an email at{" "}
-        <a href="mailto:bjornpanker@hotmail.com">email address</a> or use the
+        <a href="#">email address</a> or use the
         form below.
       </div>
       <div className="social-media">
