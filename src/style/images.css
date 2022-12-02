@@ -1,0 +1,23 @@
+.imgs-container {
+    line-height: 0;
+    column-count:2;
+    column-gap: 2px;
+  }
+  
+  .imgs-container img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+    margin:1px;
+  }
+
+@media only screen and (max-width: 600px)  {
+    .imgs-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        width:90vw;
+    }
+}

@@ -1,0 +1,15 @@
+img:hover{
+
+}
+
+
+@media only screen and (max-width: 600px)  {
+    .imgs-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        width:90vw;
+    }
+}

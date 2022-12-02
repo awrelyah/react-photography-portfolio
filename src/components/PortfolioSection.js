@@ -1,5 +1,8 @@
 import React from "react";
 import "../style/portfolio.css";
+import Imagelist from "./Imagelist";
+import Images from "./Images";
+
 
 function PortfolioSection() {
   return (
@@ -12,7 +15,9 @@ function PortfolioSection() {
       </div>
 
       <div className="images">
-       {/* images will come here */}
+        {/* still deciding how exactly the image gallery should look*/}
+        {/* prob not going to use Imagelist.js */}
+        <Images />
       </div>
     </div>
   );
