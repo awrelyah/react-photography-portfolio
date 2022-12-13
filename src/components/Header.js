@@ -7,14 +7,35 @@ import img10 from "../img/img10.JPG";
 import img7 from "../img/img7.JPG";
 import img9 from "../img/img9.JPG";
 
-function Header() {
+function Header({ mainRef, portfolioRef, contactRef }) {
+  const handleScroll = (ref) => {
+    window.scrollTo({
+      top: ref.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
 
   return (
-    <div>
+    <div ref={mainRef}>
       <div className="nav">
-        <div className="portfolio-nav">portfolio</div>
-        <div className="suchowola-nav"> suchowola media</div>
-        <div className="contact-nav" >
+        <div
+          className="portfolio-nav"
+          onClick={() => handleScroll(portfolioRef.current)}
+        >
+          portfolio
+        </div>
+        <div
+          className="suchowola-nav"
+          onClick={() => handleScroll(mainRef.current)}
+        >
+          {" "}
+          suchowola media
+        </div>
+        <div
+          className="contact-nav"
+          onClick={() => handleScroll(contactRef.current)}
+        >
           contact
         </div>
       </div>

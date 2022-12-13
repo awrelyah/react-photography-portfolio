@@ -3,15 +3,14 @@ import "../style/portfolio.css";
 import Imagelist from "./Imagelist";
 import Images from "./Images";
 
-
-function PortfolioSection() {
+function PortfolioSection({ portfolioRef }) {
   return (
     <div>
-      <div className="categories">
+      <div className="categories" ref={portfolioRef}>
         <div className="category portraits active-page">Portraits</div>
         <div className="category landscapes">Landscapes</div>
         <div className="category festivals">Festivals</div>
-        <div className="category drone">Drone</div>
+        <div className="category drone">Aerial</div>
       </div>
 
       <div className="images">

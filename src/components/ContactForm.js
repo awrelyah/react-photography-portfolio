@@ -4,9 +4,9 @@ import iglogo from "../logo/001-instagram.png";
 import fllogo from "../logo/004-flickr.png";
 import "../style/contact.css";
 
-function ContactForm() {
+function ContactForm({contactRef}) {
   return (
-    <div className="contact">
+    <div className="contact" ref={contactRef}>
       <div>
         For inquiries send me an email at{" "}
         <a href="#">email address</a> or use the
