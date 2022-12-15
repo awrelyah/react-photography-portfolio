@@ -1,7 +1,7 @@
 import React from "react";
-import fblogo from "../logo/002-facebook.png";
-import iglogo from "../logo/001-instagram.png";
-import fllogo from "../logo/004-flickr.png";
+import fblogo from "../assets/logo/002-facebook.png";
+import iglogo from "../assets/logo/001-instagram.png";
+import fllogo from "../assets/logo/004-flickr.png";
 import "../style/contact.css";
 
 function ContactForm({contactRef}) {

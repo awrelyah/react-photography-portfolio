@@ -7,8 +7,14 @@
 
 .category{
     color:grey;
+    border: 1px solid white;
+    background:none;
 }
 
+.active-page{
+    color:black;
+    border-bottom:  1px solid black;
+}
 .portfolio-nav:hover,
 .contact-nav:hover{
     border-bottom:  1px solid white;

@@ -4,9 +4,9 @@ a work in progress.
 [demo](https://awrelyah.github.io/react-photography-portfolio/)
 
 # to do
-- the whole image gallery section
-- switch between image categories
-- navbar links, scroll to view functionality
+- the whole image gallery section (placement etc)
+- smooth transitions
+- hide navbar when scrolling down
 - contact form
 - footer
 

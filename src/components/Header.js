@@ -1,11 +1,11 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "../style/header.css";
-import img1 from "../img/img1.jpg";
-import img3 from "../img/img3.JPG";
-import img10 from "../img/img10.JPG";
-import img7 from "../img/img7.JPG";
-import img9 from "../img/img9.JPG";
+import img1 from "../assets/img/img1.jpg";
+import img3 from "../assets/img/img3.JPG";
+import img10 from "../assets/img/img10.JPG";
+import img7 from "../assets/img/img7.JPG";
+import img9 from "../assets/img/img9.JPG";
 
 function Header({ mainRef, portfolioRef, contactRef }) {
   const handleScroll = (ref) => {
