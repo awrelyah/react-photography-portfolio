@@ -6,7 +6,7 @@ a work in progress.
 # to do
 - the whole image gallery section (placement etc)
 - smooth transitions
-- hide navbar when scrolling down
+- hide navbar when scrolling down (done)
 - contact form
 - footer
 
