@@ -1,24 +1,32 @@
 {
   "files": {
-    "main.css": "/react-photography-portfolio/static/css/main.42314fcf.css",
-    "main.js": "/react-photography-portfolio/static/js/main.82696cca.js",
+    "main.css": "/react-photography-portfolio/static/css/main.ad6d0487.css",
+    "main.js": "/react-photography-portfolio/static/js/main.6ec1209e.js",
     "static/js/787.46a09bf8.chunk.js": "/react-photography-portfolio/static/js/787.46a09bf8.chunk.js",
     "static/media/img10.JPG": "/react-photography-portfolio/static/media/img10.2d92464c84fe94bbc5b2.JPG",
+    "static/media/portrait4.JPG": "/react-photography-portfolio/static/media/portrait4.d7ad09515f840876ea9b.JPG",
     "static/media/fest3.JPG": "/react-photography-portfolio/static/media/fest3.b0dce1fbcc389253c5f4.JPG",
     "static/media/img7.JPG": "/react-photography-portfolio/static/media/img7.d0457ee1698b8293695d.JPG",
     "static/media/fest4.JPG": "/react-photography-portfolio/static/media/fest4.d8ad708177137785eb5a.JPG",
     "static/media/img9.JPG": "/react-photography-portfolio/static/media/img9.3e34546854ff0eed593b.JPG",
     "static/media/img3.JPG": "/react-photography-portfolio/static/media/img3.f9f62d7f950d52216b12.JPG",
+    "static/media/landscape4.jpg": "/react-photography-portfolio/static/media/landscape4.dbf43695628d70f5ff62.jpg",
     "static/media/fest1.JPG": "/react-photography-portfolio/static/media/fest1.94beef81a2d7967ae213.JPG",
     "static/media/fest2.JPG": "/react-photography-portfolio/static/media/fest2.4f03da6703152f190e3e.JPG",
+    "static/media/portrait3.JPG": "/react-photography-portfolio/static/media/portrait3.4a6e9c216e482d21fd01.JPG",
     "static/media/img1.jpg": "/react-photography-portfolio/static/media/img1.4d60d756fdf1f8692f33.jpg",
+    "static/media/landscape1.jpg": "/react-photography-portfolio/static/media/landscape1.4062c8796442a9b94c1f.jpg",
+    "static/media/landscape3.JPG": "/react-photography-portfolio/static/media/landscape3.dfcb6012449600595cfe.JPG",
+    "static/media/landscape2.JPG": "/react-photography-portfolio/static/media/landscape2.c853d205639bc8543970.JPG",
+    "static/media/portrait2.JPG": "/react-photography-portfolio/static/media/portrait2.7d4488c9c280a759280d.JPG",
+    "static/media/portrait1.JPG": "/react-photography-portfolio/static/media/portrait1.12f3bb0aea6a741adae3.JPG",
     "index.html": "/react-photography-portfolio/index.html",
-    "main.42314fcf.css.map": "/react-photography-portfolio/static/css/main.42314fcf.css.map",
-    "main.82696cca.js.map": "/react-photography-portfolio/static/js/main.82696cca.js.map",
+    "main.ad6d0487.css.map": "/react-photography-portfolio/static/css/main.ad6d0487.css.map",
+    "main.6ec1209e.js.map": "/react-photography-portfolio/static/js/main.6ec1209e.js.map",
     "787.46a09bf8.chunk.js.map": "/react-photography-portfolio/static/js/787.46a09bf8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42314fcf.css",
-    "static/js/main.82696cca.js"
+    "static/css/main.ad6d0487.css",
+    "static/js/main.6ec1209e.js"
   ]
 }
