@@ -12,14 +12,13 @@ function PortfolioSection({ portfolioRef }) {
 
   const handleSections = (value) => {
     setActiveSection(value);
-    if (value == 'portraits') setImgData(portraits);
-    if (value == 'landscapes') setImgData(landscapes);
-    if (value == 'festivals') setImgData(festivals);
-
+    if (value == "portraits") setImgData(portraits);
+    if (value == "landscapes") setImgData(landscapes);
+    if (value == "festivals") setImgData(festivals);
   };
 
   return (
-    <div>
+    <div className="portfolio">
       <div className="categories" ref={portfolioRef}>
         <button
           className={
@@ -65,7 +64,8 @@ function PortfolioSection({ portfolioRef }) {
 
       <div className="images">
         {/* still deciding how exactly the image gallery should look*/}
-        {/* prob not going to use Imagelist.js */}
+        {/* prob not going to use Imagelist.js 
+         <Imagelist imgData={imgData}/>*/}
         <Images imgData={imgData} />
       </div>
     </div>

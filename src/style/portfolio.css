@@ -1,3 +1,6 @@
+.portfolio{
+    padding:50px;
+}
 .categories{
     display:flex;
     justify-content: center;

@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import PortfolioSection from "./PortfolioSection";
 import ContactForm from "./ContactForm";
 import { useRef } from "react";
+import Footer from "./Footer";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Header  mainRef={mainRef} contactRef={contactRef} portfolioRef={portfolioRef} />
       <PortfolioSection portfolioRef={portfolioRef} />
       <ContactForm  contactRef={contactRef}/>
+      <Footer />
     </div>
   );
 }

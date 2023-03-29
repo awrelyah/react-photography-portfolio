@@ -1,34 +1,9 @@
 import React from "react";
 import { ImageList, ImageListItem } from "@mui/material";
 import "../style/imagelist.css"
-import fest1 from "../assets/img/fest1.JPG";
-import fest2 from "../assets/img/fest2.JPG";
-import fest3 from "../assets/img/fest3.JPG";
-import fest4 from "../assets/img/fest4.JPG";
 
-function Imagelist() {
-  const itemData = [
-    {
-      id: 1,
-      source: fest1,
-      title: "fest1",
-    },
-    {
-      id: 2,
-      source: fest2,
-      title: "fest2",
-    },
-    {
-      id: 3,
-      source: fest3,
-      title: "fest3",
-    },
-    {
-      id: 4,
-      source: fest4,
-      title: "fest4",
-    },
-  ];
+function Imagelist(props) {
+  const itemData = props.imgData;
 
   return (
     <>
