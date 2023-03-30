@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "../style/portfolio.css";
-import Imagelist from "./Imagelist";
 import Images from "./Images";
 import { portraits } from "../assets/portraitPhotos";
 import { landscapes } from "../assets/landscapePhotos";
 import { festivals } from "../assets/festivalPhotos";
+import { aerial } from "../assets/aerialPhotos";
+import Gallery from "./Gallery";
 
 function PortfolioSection({ portfolioRef }) {
   const [activeSection, setActiveSection] = useState("portraits");
@@ -15,6 +16,7 @@ function PortfolioSection({ portfolioRef }) {
     if (value == "portraits") setImgData(portraits);
     if (value == "landscapes") setImgData(landscapes);
     if (value == "festivals") setImgData(festivals);
+    if (value == "drone") setImgData(aerial);
   };
 
   return (
@@ -66,7 +68,10 @@ function PortfolioSection({ portfolioRef }) {
         {/* still deciding how exactly the image gallery should look*/}
         {/* prob not going to use Imagelist.js 
          <Imagelist imgData={imgData}/>*/}
-        <Images imgData={imgData} />
+
+        {/*<Images imgData={imgData} /> */}
+
+        <Gallery imgData={imgData} />
       </div>
     </div>
   );
