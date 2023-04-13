@@ -1,7 +1,7 @@
 export const landscapes = [
     {
       id: 5,
-      source: require("./img/landscape1.jpg"),
+      source: require("./img/landscape5.jpg"),
       title: "landscape1",
     },
     {
@@ -16,7 +16,7 @@ export const landscapes = [
     },
     {
       id: 8,
-      source: require("./img/landscape4.jpg"),
+      source: require("./img/landscape6.jpg"),
       title: "landscape4",
     },
   ];

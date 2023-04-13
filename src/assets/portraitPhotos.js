@@ -1,12 +1,12 @@
 export const portraits = [
   {
-    id: 1,
-    source: require("./img/portrait1.JPG"),
-    title: "portrait1",
+    id: 4304243,
+    source: require("./img/portrait/10.JPG"),
+    title: "portrait5",
   },
   {
     id: 2,
-    source: require("./img/portrait2.JPG"),
+    source: require("./img/portrait/brn-2.jpg"),
     title: "portrait2",
   },
   {
@@ -15,8 +15,8 @@ export const portraits = [
     title: "portrait3",
   },
   {
-    id: 4,
-    source: require("./img/portrait4.JPG"),
+    id: 430423,
+    source: require("./img/portrait/brn-3.JPG"),
     title: "portrait4",
   },
 ];

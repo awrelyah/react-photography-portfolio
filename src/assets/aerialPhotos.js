@@ -36,7 +36,7 @@ export const aerial = [
   },
   {
     id: 17,
-    source: require("./img/drone/5.jpg"),
+    source: require("./img/drone/9.jpg"),
     title: "drone5",
   },
 ];
