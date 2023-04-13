@@ -1,14 +1,15 @@
 # PHOTOGRAPHY PORTFOLIO
 
 a work in progress.   
-[demo](https://awrelyah.github.io/react-photography-portfolio/)
+[demo](https://react-photography-portfolio-6ny4bhqiu-awrelyah.vercel.app)
 
 # to do
-- the whole image gallery section (placement etc)
+- the whole image gallery section (placement etc) (kinda done)
 - smooth transitions
 - hide navbar when scrolling down (done)
 - contact form
 - footer
+- optimize images for faster loading
 
 ## Available Scripts
 
