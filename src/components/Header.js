@@ -6,6 +6,7 @@ import img3 from "../assets/img/img3.JPG";
 import img10 from "../assets/img/img10.JPG";
 import img7 from "../assets/img/img7.JPG";
 import img9 from "../assets/img/img9.JPG";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Header({ mainRef, portfolioRef, contactRef }) {
   const [hide, setHide] = useState(false);
@@ -63,23 +64,23 @@ function Header({ mainRef, portfolioRef, contactRef }) {
 
       <Carousel>
         <Carousel.Item>
-          <img src={img1} alt="img" className="carousel-img" />
+          <LazyLoadImage src={img1} alt="img" className="carousel-img" />
         </Carousel.Item>
 
         <Carousel.Item>
-          <img src={img10} alt="img" className="carousel-img" />
+          <LazyLoadImage src={img10} alt="img" className="carousel-img" />
         </Carousel.Item>
 
         <Carousel.Item>
-          <img src={img3} alt="img" className="carousel-img" />
+          <LazyLoadImage src={img3} alt="img" className="carousel-img" />
         </Carousel.Item>
 
         <Carousel.Item>
-          <img src={img7} alt="img" className="carousel-img" />
+          <LazyLoadImage src={img7} alt="img" className="carousel-img" />
         </Carousel.Item>
 
         <Carousel.Item>
-          <img src={img9} alt="img" className="carousel-img" />
+          <LazyLoadImage src={img9} alt="img" className="carousel-img" />
         </Carousel.Item>
       </Carousel>
     </div>

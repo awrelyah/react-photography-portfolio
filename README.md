@@ -9,7 +9,7 @@ a work in progress.
 - hide navbar when scrolling down (done)
 - contact form
 - footer
-- optimize images for faster loading
+- optimize images for faster loading (add low res placeholders)
 
 ## Available Scripts
 

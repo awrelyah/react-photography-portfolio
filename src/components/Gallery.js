@@ -6,6 +6,7 @@ import {
   faCircleChevronRight,
   faXmarkCircle,
 } from "@fortawesome/free-solid-svg-icons";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Gallery(props) {
   const data = props.imgData;
@@ -60,7 +61,7 @@ function Gallery(props) {
             onClick={handlePrevSlide}
           />
           <div className="fullscreenimg">
-            <img src={data[slideNumber].source} alt="" />
+            <LazyLoadImage src={data[slideNumber].source} alt="" />
           </div>
         </div>
       )}
@@ -72,7 +73,11 @@ function Gallery(props) {
               key={item.id}
               onClick={() => handleOpenModal(index)}
             >
-              <img className="center-cropped" src={`${item.source}`} alt={item.title} />
+              <LazyLoadImage
+                className="center-cropped"
+                src={`${item.source}`}
+                alt={item.title}
+              />
             </div>
           );
         })}
